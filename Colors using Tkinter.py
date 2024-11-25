@@ -1,0 +1,10 @@
+import tkinter as tk
+a=tk.Tk()
+a.title('colors')
+button=tk.Button(a,text="clickme",activebackground="blue",activeforeground="red")
+button.pack()
+label=tk.Label(a,text="hello thilak",background="orange",foreground="yellow")
+label.pack()
+entry=tk.Entry(a,selectbackground="light blue",selectforeground="black")
+entry.pack()
+a.mainloop()
