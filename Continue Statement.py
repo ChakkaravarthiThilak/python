@@ -1,6 +1,6 @@
-fruits=["apple","orange","banana"]
-for x in fruits:
-    if x=="orange":
+i=1
+while i<5:
+    i=i+1
+    if i==3:
         continue
-    print(x)
-    
+    print(i)
