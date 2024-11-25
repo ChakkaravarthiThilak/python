@@ -1,0 +1,7 @@
+name=input("Enter your name")
+location=input("Enter your location")
+print(name,location)
+f=open("C:/Users/csc/Desktop/thilak/file.txt","w")
+f.write(name)
+f.write(location)
+f.close()
