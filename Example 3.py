@@ -1,11 +1,13 @@
-class student:
-    name=" "
-    age=" "
-    course=" "
-p=student()
-p.name="Hari"
-p.age=22
-p.course="python"
-print("Name:",p.name)
-print("age:",p.age)
-print("course:",p.course)
+class num:
+    def __iter__(self):
+        self.a=1
+        return self
+    def __next__(self):
+        x=self.a
+        self.a+=1
+        return x
+n=num()
+b=iter(n)
+print(next(b))
+print(next(b))
+print(next(b))

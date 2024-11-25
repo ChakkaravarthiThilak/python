@@ -1,7 +1,11 @@
-def num(n):
-    value=1
-    while value<n:
-        yield value
-        value+=1
-for i in num(5):
+a=("a","b","c")
+b=iter(a)
+print (next(b))
+print (next(b))
+print (next(b))
+
+
+a=("a","b","c")
+b=iter(a)
+for i in b:
     print (i)
